@@ -9,6 +9,153 @@
     height: 100%;
     width: 100%;
   }
+
+  @media (max-width: 768px) {
+    #page>video {
+      width: 100%;
+    }
+  
+    #page-bottom {
+      width: 100%;
+    }
+  
+    #page1>h1,
+    #page2>h1 {
+      font-size: 5vw;
+      text-align: center;
+    }
+  
+    #page3>img {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    #page3-upper {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    #page3-upper>img {
+      width: 50%;
+    }
+  
+    #page3-upper-inner {
+      padding: 0 10px;
+    }
+  
+    #page3>button {
+      font-size: 1.8vw;
+      width: 100%;
+      margin-top: 1vw;
+    }
+  
+    #page4>video {
+      width: 100%;
+    }
+  
+    #center-page4 {
+      font-size: 3vw;
+    }
+  
+    #page5 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left5,
+    .right5 {
+      width: 100%;
+    }
+  
+    .left5>h1 {
+      font-size: 2.5vw;
+    }
+  
+    .right5>h3 {
+      font-size: 1.8vw;
+      width: 100%;
+    }
+  
+    .right5>button {
+      font-size: 1.5vw;
+      width: 100%;
+      margin-top: 1vw;
+    }
+  
+    #page6>h3,
+    #page6>h1,
+    #page6>p {
+      font-size: 2.5vw;
+    }
+  
+    #page7>h4,
+    #page7>h1,
+    #page7>p {
+      font-size: 3vw;
+    }
+  
+    #page7>p {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    #page8>h1,
+    #page9>h1,
+    #page10>h1,
+    #page11>h1,
+    #page12>h1,
+    #page13>h1 {
+      font-size: 1.8vw;
+    }
+  
+    #page16>h2 {
+      font-size: 4vw;
+    }
+  
+    #page16>img {
+      width: 80%;
+      margin: 1vw auto;
+    }
+  
+    #page16>button {
+      font-size: 1.8vw;
+      width: 100%;
+      margin-top: 1vw;
+    }
+  
+    #page17>h4,
+    #page17>h1,
+    #page17>p {
+      font-size: 4vw;
+    }
+  
+    #page17>p {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    #page19 {
+      font-size: 2vw;
+      text-align: center;
+    }
+  
+    #center-page20>h1 {
+      margin-bottom: 1.7vw;
+      font-size: 2.5vw;
+      text-align: center;
+    }
+  
+    #page21>#troff,
+    #page21>#tron,
+    #page22>#snroff,
+    #page22>#snron,
+    #page23>img {
+      width: 100%;
+    }
+  }
+
   #main{
       position: relative;
       overflow: hidden;
