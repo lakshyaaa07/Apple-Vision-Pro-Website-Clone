@@ -103,3 +103,27 @@ body {
     transform: translateX(-50%);
     white-space: nowrap;
 }
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+}
+
+#page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2>h1{
+    font-size: 4vw;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
